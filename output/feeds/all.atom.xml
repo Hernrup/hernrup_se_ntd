@@ -1,2 +1,188 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog</title><link href="http://hernrup.github.io/hernrup_se_ntd/" rel="alternate"></link><link href="http://hernrup.github.io/hernrup_se_ntd/feeds/all.atom.xml" rel="self"></link><id>http://hernrup.github.io/hernrup_se_ntd/</id><updated>2015-09-15T08:26:42Z</updated></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NowThinkDammit</title><link href="http://hernrup.github.io/hernrup_se_ntd/" rel="alternate"></link><link href="http://hernrup.github.io/hernrup_se_ntd/feeds/all.atom.xml" rel="self"></link><id>http://hernrup.github.io/hernrup_se_ntd/</id><updated>2015-09-16T22:29:00+02:00</updated><entry><title>The blog is up and running</title><link href="http://hernrup.github.io/hernrup_se_ntd/the-blog-is-up-and-running.html" rel="alternate"></link><updated>2015-09-16T22:29:00+02:00</updated><author><name>Mikael Hernrup</name></author><id>tag:hernrup.github.io,2015-09-16:hernrup_se_ntd/the-blog-is-up-and-running.html</id><summary type="html">&lt;p&gt;Finaly got around to setting up the blog. So here it is! Take it for what it is, or isn't..&lt;/p&gt;</summary></entry><entry><title>Quadcopter build - Part 1: Specs</title><link href="http://hernrup.github.io/hernrup_se_ntd/quadcopter-build-part-1-specs.html" rel="alternate"></link><updated>2015-02-01T16:44:00+01:00</updated><author><name>Mikael Hernrup</name></author><id>tag:hernrup.github.io,2015-02-01:hernrup_se_ntd/quadcopter-build-part-1-specs.html</id><summary type="html">&lt;p&gt;The basic criteria for this build has been:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A flight time of 15+ minutes&lt;/li&gt;
+&lt;li&gt;Capable of lifting a decent camera and FPV equipment.&lt;/li&gt;
+&lt;li&gt;Enough left over power to have decent maneuverability and keep fun flying characteristics.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To accommodate this it turns out that you need to scale things up a bit.. to 11 inch props at least in order to get a decent trade off on battery weight and flight time.&lt;/p&gt;
+&lt;p&gt;I have chosen a large frame (660 cm) in order to accommodate the large props and give it more stability in the air. The motors are quite slow (970 KV) but generates a lot of lift with the large props without drawing unreasonable amounts of battery power. Its is expected to carry 2 battery packs connected in parallel rather than one enormous pack in order to optimize the mA / kg ratio.&lt;/p&gt;
+&lt;p&gt;This is the basic calculations used for the build. I have used the excellent calculator over at www.ecalc.ch. I can not stress how much this service has been worth the few dollars that it costs. If I had run with my own, rather naive, choices i would have ended up with overheated engines and destroyed ESCs in no time. Not to talk about the small inconvenience of the 27s flight time ;).&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Calculations" src="http://hernrup.github.io/hernrup_se_ntd/images/quad_stats.png" /&gt;&lt;/p&gt;
+&lt;p&gt;And the corresponding shopping list:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Component&lt;/th&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Price (EUR)&lt;/th&gt;
+&lt;th&gt;Quantity&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Flight controller&lt;/td&gt;
+&lt;td&gt;KK2&lt;/td&gt;
+&lt;td&gt;26&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ESC&lt;/td&gt;
+&lt;td&gt;TURNIGY Plush 25amp&lt;/td&gt;
+&lt;td&gt;15.26   4&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Frame&lt;/td&gt;
+&lt;td&gt;X666&lt;/td&gt;
+&lt;td&gt;15.68&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Vibration Damping&lt;/td&gt;
+&lt;td&gt;Vibration_Damping_Balls&lt;/td&gt;
+&lt;td&gt;5.52&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Motors&lt;/td&gt;
+&lt;td&gt;GT2812/10&lt;/td&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Prop guards&lt;/td&gt;
+&lt;td&gt;12 Inch Universal Multi-Rotor Propeller Guard&lt;/td&gt;
+&lt;td&gt;4.08&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Propellers&lt;/td&gt;
+&lt;td&gt;Slow Fly Electric 11x4&lt;/td&gt;
+&lt;td&gt;3.52&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Propellers&lt;/td&gt;
+&lt;td&gt;Slow Fly Electric 11x4 (CW)&lt;/td&gt;
+&lt;td&gt;3.52&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Power&lt;/td&gt;
+&lt;td&gt;distrubution    Hobbyking Multi-Rotor Power Distribution Board&lt;/td&gt;
+&lt;td&gt;1.69&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Battery&lt;/td&gt;
+&lt;td&gt;Turnigy 5000mAh 3S 25C Lipo Pack&lt;/td&gt;
+&lt;td&gt;25.47&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Connectors&lt;/td&gt;
+&lt;td&gt;T-connectors&lt;/td&gt;
+&lt;td&gt;3.2&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Lights&lt;/td&gt;
+&lt;td&gt;6 LED Strip GREEN&lt;/td&gt;
+&lt;td&gt;1.62&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Lights&lt;/td&gt;
+&lt;td&gt;6 LED Strip RED&lt;/td&gt;
+&lt;td&gt;1.62&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;So here we go! :)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="parts" src="http://hernrup.github.io/hernrup_se_ntd/images/DSC_0097-Medium.jpg" /&gt;&lt;/p&gt;</summary><category term="Quadcopter"></category><category term="build"></category><category term="RC"></category></entry><entry><title>Quadcopter build – Part 2: The assembly</title><link href="http://hernrup.github.io/hernrup_se_ntd/quadcopter-build-part-2-the-assembly.html" rel="alternate"></link><updated>2015-02-01T16:44:00+01:00</updated><author><name>Mikael Hernrup</name></author><id>tag:hernrup.github.io,2015-02-01:hernrup_se_ntd/quadcopter-build-part-2-the-assembly.html</id><summary type="html">&lt;p&gt;Alright so i got my parts. Lets get cracking. First up:&lt;/p&gt;
+&lt;h2&gt;The frame&lt;/h2&gt;
+&lt;p&gt;I have selected a light weight frame in aluminum for 2 reasons.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Its more durable than carbon fiber so it might hold if (when) i crach it.&lt;/li&gt;
+&lt;li&gt;Its less expensive than carbon fiber so I can afford to crach it.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I bought two sets from the start just in case I might be.. like i usualy am.
+&lt;img alt="" src="http://hernrup.github.io/hernrup_se_ntd/images/DSC_0101-Medium.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Assembly was easy peasy. Good fits and everything seems solid.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="http://hernrup.github.io/hernrup_se_ntd/images/DSC_0104-Medium.jpg" /&gt;&lt;/p&gt;
+&lt;h2&gt;Control board&lt;/h2&gt;
+&lt;p&gt;I whent with the K2 control board and, as expected, it fit right onto the 
+mounts in the frame. The housing that comes with the unit reely helps proptect it
+and the tight mounts will help alot to keep the stability of the gyroscopes.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="http://hernrup.github.io/hernrup_se_ntd/images/DSC_0111-Medium.jpg" /&gt;&lt;/p&gt;
+&lt;h2&gt;Power distrubution&lt;/h2&gt;
+&lt;p&gt;Next up, a power distrubution board. This came with bullet connectors but as I
+already had alot of T-connectors laying around I decided to change them. 
+The T-connectors couse less cable madness than the bullets but are on the other
+side heavier and more bulky. In retrospect I should probably have forgon the connectors
+all together and soldered the leads directly onto the board.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="http://hernrup.github.io/hernrup_se_ntd/images/DSC_0110-Medium.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;The screws did not fit with the control board on the other side of the card so
+I tied it down with strips.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="http://hernrup.github.io/hernrup_se_ntd/images/DSC_0112-Medium.jpg" /&gt;&lt;/p&gt;
+&lt;h2&gt;ESC&lt;/h2&gt;
+&lt;p&gt;The ESC comes with nice bullet connectors on the one motor side. Ill but my 
+T-connector on the other side. 
+Que the soldering iron!
+&lt;img alt="" src="http://hernrup.github.io/hernrup_se_ntd/images/DSC_0116-Medium.jpg" /&gt;
+&lt;img alt="" src="http://hernrup.github.io/hernrup_se_ntd/images/DSC_0118-Medium.jpg" /&gt;
+&lt;img alt="" src="http://hernrup.github.io/hernrup_se_ntd/images/DSC_0119-Medium.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;I initialy tried to feed the power cables through the arms of the frame. 
+It turnes out it gets a little to close to comfert to the lower motor part so 
+unfortunatly I had to resolve to ugly strips on the outside.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="http://hernrup.github.io/hernrup_se_ntd/images/DSC_0114-Medium.jpg" /&gt;
+&lt;img alt="" src="http://hernrup.github.io/hernrup_se_ntd/images/DSC_0120-Medium.jpg" /&gt;&lt;/p&gt;
+&lt;h2&gt;Bling and assessories&lt;/h2&gt;
+&lt;p&gt;As I previusly stated. Im counting on putting this one in the ground a few times. 
+So propeller guards: Propably a good idea!&lt;/p&gt;
+&lt;p&gt;The mounts did not match so yeah...&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="http://hernrup.github.io/hernrup_se_ntd/images/DSC_0129-Medium.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Im also counting on loosing track of whats front and back of this death machine 
+so a few colored lights might not hurt either.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="http://hernrup.github.io/hernrup_se_ntd/images/DSC_0134-Medium.jpg" /&gt;&lt;/p&gt;
+&lt;h2&gt;Done!&lt;/h2&gt;
+&lt;p&gt;Ok, engines mounted. Lights are blinking. Props are spinning (very slowly!)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="http://hernrup.github.io/hernrup_se_ntd/images/DSC_0138-Medium.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Its about now I start to make a few realizations.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Those batteries I bought for extended flight time are huge. They weigh alot!&lt;/li&gt;
+&lt;li&gt;The props the calculator told be I needed to carry those batteries are huge.&lt;/li&gt;
+&lt;li&gt;The motors turning those props are reely quite a thing when you hold them in your hand.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And most but definitly not least: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;That is one big f&lt;strong&gt;*&lt;/strong&gt; machine. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So basicly Im scared shitless of the thing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Next up:&lt;/strong&gt; Finding a big ass field 
+ without anyone to.. well.. behead.&lt;/p&gt;</summary><category term="Quadcopter"></category><category term="build"></category><category term="RC"></category></entry><entry><title>Quadcopter build – Part 3: First flight!</title><link href="http://hernrup.github.io/hernrup_se_ntd/quadcopter-build-part-3-first-flight.html" rel="alternate"></link><updated>2015-02-01T16:44:00+01:00</updated><author><name>Mikael Hernrup</name></author><id>tag:hernrup.github.io,2015-02-01:hernrup_se_ntd/quadcopter-build-part-3-first-flight.html</id><summary type="html">&lt;h2&gt;The story so far..&lt;/h2&gt;
+&lt;p&gt;As I said in the assembly post.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Those batteries I bought for extended flight time are huge. They weigh alot!&lt;/li&gt;
+&lt;li&gt;The props the calculator told me I needed to carry those batteries are huge.&lt;/li&gt;
+&lt;li&gt;The motors turning those props are reely quite a thing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And most but definitly not least: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;That is one big and scary f&lt;strong&gt;*&lt;/strong&gt; machine. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;The first flight&lt;/h2&gt;
+&lt;p&gt;It was awesome.&lt;/p&gt;
+&lt;p&gt;It started with a terribly powerfull sound.&lt;/p&gt;
+&lt;p&gt;Lifted up nice and controlled. Good controller responce after a few tunings.&lt;/p&gt;
+&lt;p&gt;Flew a nice 8 or 9 minutes untill I decided to mess things upp. I hate to
+ disapoint and I did promise a crach.&lt;/p&gt;
+&lt;p&gt;My inability to hold a steady height quickly turned into a overcompensation 
+followed by a undercompensation followed be a minor hole in the ground. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="http://hernrup.github.io/hernrup_se_ntd/images/DSC_0142-Medium.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Not to all:&lt;/strong&gt; propeller guards do not function as you might think. 
+Rather than taking the hit to protect the prop they bend very nicely into the prop
+in order to guarantee the mutual destruction of both.&lt;/p&gt;
+&lt;p&gt;Now: Time to mount some new props and find a bigger field.&lt;/p&gt;</summary><category term="Quadcopter"></category><category term="build"></category><category term="RC"></category></entry></feed>

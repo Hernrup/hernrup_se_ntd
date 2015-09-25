@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- ## for client-side less
+  <link rel="stylesheet/less" type="text/css" href="./theme/css/style.less">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.7.3/less.min.js" type="text/javascript"></script>
+  -->
+  <link rel="stylesheet" type="text/css" href="./theme/css/style.css">
+  <link rel="stylesheet" type="text/css" href="./theme/css/pygments.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans|PT+Serif|PT+Mono">
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Mikael Hernrup">
+  <meta name="description" content="Posts and writings by Mikael Hernrup">
+
+  <link href="http://hernrup.github.io/hernrup_se_ntd/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="NowThinkDammit Atom" />
+
+<meta name="keywords" content="Quadcopter, build, RC">
+
+  <title>
+    NowThinkDammit
+&ndash; Quadcopter build - Part 1: Specs  </title>
+
+</head>
+
+<body>
+  <aside>
+    <div id="user_meta">
+      <a href=".">
+        <img src="/images/site/logo2.png" alt="logo">
+      </a>
+      <p>The ramblings of a sarcastic developer, engineer and geek. And also stuff. I like stuff.</p>
+      <ul>
+        <li><a href="https://github.com/Hernrup" target="_blank">Github</a></li>
+        <li><a href="https://se.linkedin.com/pub/mikael-hernrup/31/247/624" target="_blank">LinkedIn</a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <main>
+    <header>
+      <p>
+      <a href=".">Index</a> &brvbar; <a href="./archives.html">Archives</a>
+      &brvbar; <a href="http://hernrup.github.io/hernrup_se_ntd/feeds/all.atom.xml">Atom</a>
+      </p>
+    </header>
+
+<article>
+  <div class="article_title">
+    <h3><a href="./quadcopter-build-part-1-specs.html">Quadcopter build - Part 1: Specs</a></h3>
+  </div>
+  <div class="article_text">
+    <p>The basic criteria for this build has been:</p>
+<ul>
+<li>A flight time of 15+ minutes</li>
+<li>Capable of lifting a decent camera and FPV equipment.</li>
+<li>Enough left over power to have decent maneuverability and keep fun flying characteristics.</li>
+</ul>
+<p>To accommodate this it turns out that you need to scale things up a bit.. to 11 inch props at least in order to get a decent trade off on battery weight and flight time.</p>
+<p>I have chosen a large frame (660 cm) in order to accommodate the large props and give it more stability in the air. The motors are quite slow (970 KV) but generates a lot of lift with the large props without drawing unreasonable amounts of battery power. Its is expected to carry 2 battery packs connected in parallel rather than one enormous pack in order to optimize the mA / kg ratio.</p>
+<p>This is the basic calculations used for the build. I have used the excellent calculator over at www.ecalc.ch. I can not stress how much this service has been worth the few dollars that it costs. If I had run with my own, rather naive, choices i would have ended up with overheated engines and destroyed ESCs in no time. Not to talk about the small inconvenience of the 27s flight time ;).</p>
+<p><img alt="Calculations" src="./images/quad_stats.png" /></p>
+<p>And the corresponding shopping list:</p>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Name</th>
+<th>Price (EUR)</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Flight controller</td>
+<td>KK2</td>
+<td>26</td>
+<td>1</td>
+</tr>
+<tr>
+<td>ESC</td>
+<td>TURNIGY Plush 25amp</td>
+<td>15.26   4</td>
+<td></td>
+</tr>
+<tr>
+<td>Frame</td>
+<td>X666</td>
+<td>15.68</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Vibration Damping</td>
+<td>Vibration_Damping_Balls</td>
+<td>5.52</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Motors</td>
+<td>GT2812/10</td>
+<td>20</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Prop guards</td>
+<td>12 Inch Universal Multi-Rotor Propeller Guard</td>
+<td>4.08</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Propellers</td>
+<td>Slow Fly Electric 11x4</td>
+<td>3.52</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Propellers</td>
+<td>Slow Fly Electric 11x4 (CW)</td>
+<td>3.52</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Power</td>
+<td>distrubution    Hobbyking Multi-Rotor Power Distribution Board</td>
+<td>1.69</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Battery</td>
+<td>Turnigy 5000mAh 3S 25C Lipo Pack</td>
+<td>25.47</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Connectors</td>
+<td>T-connectors</td>
+<td>3.2</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Lights</td>
+<td>6 LED Strip GREEN</td>
+<td>1.62</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Lights</td>
+<td>6 LED Strip RED</td>
+<td>1.62</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<p>So here we go! :)</p>
+<p><img alt="parts" src="./images/DSC_0097-Medium.jpg" /></p>
+  </div>
+  <div class="article_meta">
+    <p>Posted on: Sun 01 February 2015</p>
+    <p>Category: <a href="./category/electronics.html">Electronics</a>
+ &ndash; Tags:
+      <a href="./tag/quadcopter.html">Quadcopter</a>,      <a href="./tag/build.html">build</a>,      <a href="./tag/rc.html">RC</a>    </p>
+  </div>
+
+  <div id="article_comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_identifier = "quadcopter-build-part-1-specs.html";
+        (function() {
+             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+             dsq.src = 'http://nowthinkdammit.disqus.com/embed.js';
+             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+         })();
+    </script>
+  </div>
+
+</article>
+
+
+    <div id="ending_message">
+      <p>&copy; Mikael Hernrup. Built using <a href="http://getpelican.com" target="_blank">Pelican</a>. Theme by Giulio Fidente on <a href="https://github.com/gfidente/pelican-svbhack" target="_blank">github</a>. </p>
+    </div>
+  </main>
+</body>
+</html>
