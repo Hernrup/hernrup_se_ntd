@@ -11,7 +11,8 @@ SITEURL = 'http://hernrup.github.io/hernrup_se_ntd/'
 
 PATH = 'content'
 OUTPUT_PATH = '/output/'
-DELETE_OUTPUT_DIRECTORY = True
+DELETE_OUTPUT_DIRECTORY = False
+PAGE_PATHS = ['pages']
 
 TIMEZONE = 'Europe/Stockholm'
 
@@ -27,14 +28,31 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = []
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+    ('Github', 'https://github.com/Hernrup'),
+    ('LinkedIn', 'https://se.linkedin.com/pub/mikael-hernrup/31/247/624'),
+)
 
 DEFAULT_PAGINATION = False
 RELATIVE_URLS = True
+
+STATIC_PATHS = [
+    'images',
+    'extra/robots.txt',
+    'extra/favicon.ico'
+]
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/favicon.ico': {'path': 'favicon.ico'}
+}
+
+THEME = '../core/themes/svbhack'
+GOOGLE_ANALYTICS = None
+DISQUS_SITENAME  = 'nowthinkdammit'
+USER_LOGO_URL = '/images/site/logo2.png'
+TAGLINE = 'The ramblings of a sarcastic developer, engineer and geek. ' \
+          'And also stuff. I like stuff.'
+INTERNET_DEFENSE_LEAGUE = False
