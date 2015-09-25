@@ -51,8 +51,8 @@ EXTRA_PATH_METADATA = {
 
 THEME = '../core/themes/svbhack'
 GOOGLE_ANALYTICS = None
-DISQUS_SITENAME  = 'nowthinkdammit'
-USER_LOGO_URL = '/images/site/logo2.png'
+DISQUS_SITENAME = 'nowthinkdammit'
+USER_LOGO_URL = './images/site/logo2.png'
 TAGLINE = 'The ramblings of a sarcastic developer, engineer and geek. ' \
           'And also stuff. I like stuff.'
 INTERNET_DEFENSE_LEAGUE = False
