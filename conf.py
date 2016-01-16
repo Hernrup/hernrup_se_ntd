@@ -49,7 +49,7 @@ EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'}
 }
 
-THEME = '../core/themes/svbhack'
+THEME = 'theme/svbhack'
 GOOGLE_ANALYTICS = None
 DISQUS_SITENAME = 'nowthinkdammit'
 USER_LOGO_URL = './images/site/logo2.png'
