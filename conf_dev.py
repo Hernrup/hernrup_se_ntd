@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from ntd.conf import *
+from conf import *  # noqa
 
 SITEURL = ''
 LOAD_CONTENT_CACHE = False
@@ -12,4 +12,3 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-
