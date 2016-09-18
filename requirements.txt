@@ -1,5 +1,5 @@
 --index-url https://pypi.python.org/simple/
--e git+https://github.com/Hernrup/hernrup_se.git#egg=hernrup-se-core
+-e git+https://github.com/Hernrup/hernrup_se_core.git#egg=hernrup-se-core
 -e .
 
 flake8>=2.1.0,
